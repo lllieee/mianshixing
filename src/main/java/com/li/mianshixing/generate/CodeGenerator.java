@@ -12,12 +12,6 @@ import java.util.Map;
 import java.io.FileWriter;
 import java.io.Writer;
 
-/**
- * 代码生成器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
- */
 public class CodeGenerator {
 
     /**
@@ -29,10 +23,10 @@ public class CodeGenerator {
      */
     public static void main(String[] args) throws TemplateException, IOException {
         // 指定生成参数
-        String packageName = "com.yupi.springbootinit";
-        String dataName = "用户评论";
-        String dataKey = "userComment";
-        String upperDataKey = "UserComment";
+        String packageName = "com.li.mianshixing";
+        String dataName = "题库题目关联";
+        String dataKey = "questionBankQuestion";
+        String upperDataKey = "QuestionBankQuestion";
 
         // 封装生成参数
         Map<String, Object> dataModel = new HashMap<>();
