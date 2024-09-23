@@ -491,19 +491,25 @@ declare namespace API {
     questionId?: number;
   };
 
+  type QuestionBankQuestionBatchAddRequest = {
+    questionBankId?: number;
+    questionIdList?: number[];
+  };
+
+  type QuestionBankQuestionBatchRemoveRequest = {
+    questionBankId?: number;
+    questionIdList?: number[];
+  };
+
   type QuestionBankQuestionQueryRequest = {
-    content?: string;
     current?: number;
     id?: number;
     notId?: number;
     pageSize?: number;
     questionBankId?: number;
     questionId?: number;
-    searchText?: string;
     sortField?: string;
     sortOrder?: string;
-    tags?: string[];
-    title?: string;
     userId?: number;
   };
 
@@ -513,10 +519,9 @@ declare namespace API {
   };
 
   type QuestionBankQuestionUpdateRequest = {
-    content?: string;
     id?: number;
-    tags?: string[];
-    title?: string;
+    questionBankId?: number;
+    questionId?: number;
   };
 
   type QuestionBankQuestionVO = {
@@ -547,6 +552,10 @@ declare namespace API {
     updateTime?: string;
     user?: UserVO;
     userId?: number;
+  };
+
+  type QuestionBatchDeleteRequest = {
+    questionIdList?: number[];
   };
 
   type QuestionEditRequest = {

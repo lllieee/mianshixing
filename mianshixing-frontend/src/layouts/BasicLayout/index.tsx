@@ -43,7 +43,6 @@ export default function BasicLayout({ children }: Props) {
       dispatch(setLoginUser(DEFAULT_USER));
       router.push("/user/login");
     } catch (e) {
-      // @ts-ignore
       message.error("操作失败，" + e.message);
     }
   };

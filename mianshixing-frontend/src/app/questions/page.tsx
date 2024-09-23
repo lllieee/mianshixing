@@ -5,8 +5,6 @@ import { searchQuestionVoByPageUsingPost } from "@/api/questionController";
 import QuestionTable from "@/components/QuestionTable";
 import "./index.css";
 
-// @ts-ignore
-// @ts-ignore
 /**
  * 题目列表页面
  * @constructor
@@ -28,8 +26,7 @@ export default async function QuestionsPage({ searchParams }) {
     questionList = res.data.records ?? [];
     total = res.data.total ?? 0;
   } catch (e) {
-    // @ts-ignore
-    message.error(`获取题目列表失败，${e.message}`);
+    message.error("获取题目列表失败，" + e.message);
   }
 
   return (

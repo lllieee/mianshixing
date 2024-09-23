@@ -152,8 +152,7 @@ const UserAdminPage: React.FC = () => {
               const sortField = Object.keys(sort)?.[0];
               const sortOrder = sort?.[sortField] ?? undefined;
 
-              // @ts-ignore
-                const { data, code } = await listUserByPageUsingPost({
+              const { data, code } = await listUserByPageUsingPost({
                 ...params,
                 sortField,
                 sortOrder,
@@ -162,8 +161,8 @@ const UserAdminPage: React.FC = () => {
 
               return {
                 success: code === 0,
-                // data: data?.records || [],
-                // total: Number(data?.total) || 0,
+                data: data?.records || [],
+                total: Number(data?.total) || 0,
               };
             }}
             columns={columns}
