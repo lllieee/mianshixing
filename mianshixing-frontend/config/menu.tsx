@@ -18,7 +18,7 @@ export const menus = [
   },
   {
     name: "面试星",
-    path: "https://www.jd.com",
+    path: "https://github.com/lllieee/mianshixing.git",
     target: "_blank",
   },
   {

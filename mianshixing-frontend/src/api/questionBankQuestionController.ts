@@ -130,7 +130,7 @@ export async function removeQuestionBankQuestionUsingPost(
 
 /** batchRemoveQuestionsFromBank POST /api/questionBankQuestion/remove/batch */
 export async function batchRemoveQuestionsFromBankUsingPost(
-  body: API.QuestionBankQuestionBatchRemoveRequest,
+  body: API.QuestionBankQuestionBatchAddRequest,
   options?: { [key: string]: any },
 ) {
   return request<API.BaseResponseBoolean_>('/api/questionBankQuestion/remove/batch', {

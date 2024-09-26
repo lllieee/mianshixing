@@ -152,8 +152,8 @@ public class QuestionController {
     public BaseResponse<QuestionVO> getQuestionVOById(long id, HttpServletRequest request) {
         ThrowUtils.throwIf(id <= 0, ErrorCode.PARAMS_ERROR);
         // 检测和处置爬虫
-        User loginUser = userService.getLoginUser(request);
-        crawlerDetect(loginUser.getId());
+//        User loginUser = userService.getLoginUser(request);
+//        crawlerDetect(loginUser.getId());
         // 查询数据库
         Question question = questionService.getById(id);
         ThrowUtils.throwIf(question == null, ErrorCode.NOT_FOUND_ERROR);

@@ -12,7 +12,7 @@ export default function GlobalFooter() {
     <div className="global-footer">
       <div>© {currentYear} 面试星在线刷题</div>
       <div>
-        <a href="https://www.jd.com" target="_blank">
+        <a href="https://github.com/lllieee/mianshixing.git" target="_blank">
           作者：张三
         </a>
       </div>

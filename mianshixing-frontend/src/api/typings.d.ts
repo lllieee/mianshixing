@@ -146,6 +146,41 @@ declare namespace API {
     id?: number;
   };
 
+  type doLoginUsingDELETEParams = {
+    /** password */
+    password?: string;
+    /** username */
+    username?: string;
+  };
+
+  type doLoginUsingGETParams = {
+    /** password */
+    password?: string;
+    /** username */
+    username?: string;
+  };
+
+  type doLoginUsingPATCHParams = {
+    /** password */
+    password?: string;
+    /** username */
+    username?: string;
+  };
+
+  type doLoginUsingPOSTParams = {
+    /** password */
+    password?: string;
+    /** username */
+    username?: string;
+  };
+
+  type doLoginUsingPUTParams = {
+    /** password */
+    password?: string;
+    /** username */
+    username?: string;
+  };
+
   type getPostVOByIdUsingGETParams = {
     /** id */
     id?: number;
@@ -496,20 +531,19 @@ declare namespace API {
     questionIdList?: number[];
   };
 
-  type QuestionBankQuestionBatchRemoveRequest = {
-    questionBankId?: number;
-    questionIdList?: number[];
-  };
-
   type QuestionBankQuestionQueryRequest = {
+    content?: string;
     current?: number;
     id?: number;
     notId?: number;
     pageSize?: number;
     questionBankId?: number;
     questionId?: number;
+    searchText?: string;
     sortField?: string;
     sortOrder?: string;
+    tags?: string[];
+    title?: string;
     userId?: number;
   };
 
@@ -519,9 +553,10 @@ declare namespace API {
   };
 
   type QuestionBankQuestionUpdateRequest = {
+    content?: string;
     id?: number;
-    questionBankId?: number;
-    questionId?: number;
+    tags?: string[];
+    title?: string;
   };
 
   type QuestionBankQuestionVO = {
