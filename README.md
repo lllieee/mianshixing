@@ -12,13 +12,13 @@
 
 ## 项目截图
 
-https://github.com/lllieee/mianshixing/issues/1#issue-2549541618
+![](README.assets/微信截图_20240926120133-1727328683077.png)
 
 
 
+![](README.assets/微信截图_20240926120222-1727328693365.png)
 
 
-https://github.com/lllieee/mianshixing/issues/2#issue-2549544977
 
 
 
