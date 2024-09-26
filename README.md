@@ -12,27 +12,33 @@
 
 ## 项目截图
 
-![](C:\Users\dell\Desktop\微信截图_20240926120133.png)
-
-
-
-![](C:\Users\dell\Desktop\微信截图_20240926120222.png)
-
-
-
-![](C:\Users\dell\Desktop\微信截图_20240926120310.png)
-
-![](C:\Users\dell\Desktop\微信截图_20240926120338.png)
-
-
-
-![](C:\Users\dell\Desktop\微信截图_20240926120710.png)
+![](README.assets/微信截图_20240926120133.png)
 
 
 
 
 
-![](C:\Users\dell\Desktop\微信截图_20240926120553.png)
+![](README.assets/微信截图_20240926120222.png)
+
+
+
+![](README.assets/微信截图_20240926120310.png)
+
+
+
+![](README.assets/微信截图_20240926120338.png)
+
+
+
+![](README.assets/微信截图_20240926120553.png)
+
+
+
+
+
+![](README.assets/微信截图_20240926120710.png)
+
+
 
 ## 项目架构介绍
 
@@ -42,13 +48,13 @@
 
 ### 架构图
 
-![image-20240924192846500](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240924192846500.png)
+![](README.assets/微信截图_20240926130701.png)
 
 ### 项目结构
 
 #### 项目结构图
 
-![image-20240926120837459](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240926120837459.png)
+![](README.assets/微信截图_20240926130724.png)
 
 #### 项目结构说明
 
@@ -96,16 +102,16 @@
 
 ### 题目表
 
-![](C:\Users\dell\Desktop\微信截图_20240926114556.png)
+![](README.assets/微信截图_20240926130904.png)
 
 ### 题库表
 
-![image-20240924195837391](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240924195837391.png)
+![](README.assets/微信截图_20240926130921.png)
 
 ### 题目题库关联表
 
-![image-20240924195850765](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240924195850765.png)
+![](README.assets/微信截图_20240926130937.png)
 
 ### 用户表
 
-![image-20240924195925608](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240924195925608.png)
+![](README.assets/微信截图_20240926130951.png)
